@@ -1,0 +1,35 @@
+{
+  "$id": "1",
+  "AutoRefresh": true,
+  "AutoRefreshRemotes": true,
+  "CommitTextLinks": null,
+  "DraftCommitMsg": "",
+  "IncomingSavedCount": 0,
+  "LastCheckedRemotes": "2024-09-04T14:12:40.880234-06:00",
+  "LastUsedView": 1,
+  "LogBranchFilterIndex": 0,
+  "OutgoingSavedCount": 0,
+  "SidebarExpandedItems": [
+    "File Status",
+    "Branches",
+    "Branches"
+  ],
+  "SidebarWidth": 210.0,
+  "SubtreeLinks": [],
+  "NeedsLargeFilesPull": false,
+  "RemoteProjectLinks": [
+    {
+      "$id": "2",
+      "BaseUrl": "",
+      "Identifier": "hg@172.24.32.23/ProquifaNetHg",
+      "RemoteName": "origin",
+      "Type": -1,
+      "Username": "",
+      "CloneUrl": null,
+      "ProjectUrl": null,
+      "AccountId": "",
+      "AvatarUrl": null,
+      "DisplayName": "origin: "
+    }
+  ]
+}

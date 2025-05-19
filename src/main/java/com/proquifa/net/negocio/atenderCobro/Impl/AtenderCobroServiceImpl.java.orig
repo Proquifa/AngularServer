@@ -1,0 +1,58 @@
+package com.proquifa.net.negocio.atenderCobro.Impl;
+
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.transaction.interceptor.TransactionAspectSupport;
+
+import com.proquifa.net.modelo.catalogos.cobrosypagos.facturista.Factura;
+import com.proquifa.net.modelo.comun.Parametro;
+import com.proquifa.net.modelo.comun.excepciones.ProquifaNetException;
+import com.proquifa.net.negocio.atenderCobro.atenderCobroService;
+import com.proquifa.net.persistencia.atenderCobro.AtenderCobroDAO;
+
+@Service("atenderCobroService")
+public class AtenderCobroServiceImpl  implements atenderCobroService{
+	@Autowired
+	AtenderCobroDAO atenderCobroDAO;
+	
+	
+	@Override
+	public Map<String, List<Factura>> atenderCobro(int idCliente) throws ProquifaNetException{
+		try{
+			Map<String, List<Factura>> mapReturn = new HashMap<String, List<Factura>>();
+			mapReturn =  atenderCobroDAO.atenderCobro(idCliente);
+			return mapReturn;
+		}catch (Exception e) {
+			// logger.error(e.getMessage());
+			return null;
+		}
+	}
+	
+	public List <Factura> obtenerNotas(int idCliente) throws ProquifaNetException {
+		try {						
+			List <Factura> lstResult = atenderCobroDAO.obtenerNotas(idCliente);			
+			return lstResult;
+		} catch (Exception e) {
+			e.printStackTrace();
+			TransactionAspectSupport.currentTransactionStatus().setRollbackOnly();
+		}
+		return null;
+	}
+	
+	public Map<String, List<Factura>> generarGraficaCobro(Parametro patametros) throws ProquifaNetException{
+		try{
+			Map<String, List<Factura>> mapReturn = new HashMap<String, List<Factura>>();
+			mapReturn =  atenderCobroDAO.generarGraFicaCobro(patametros);
+			return mapReturn;
+		}catch (Exception e) {
+			// logger.error(e.getMessage());
+			return null;
+		}
+	}
+
+
+}

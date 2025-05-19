@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: Fernando Betanzos
+Build-Jdk: Amazon Corretto version 1.8.0_362
+Implementation-Title: ProquifaNetAngular
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.proquifa.net
+Main-Class: com.mkyong.NewSpringBootWebApplicationForWAR
+
