@@ -22,7 +22,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 		<java.version>1.8</java.version>
-		<start-class>com.mkyong.NewSpringBootWebApplicationForWAR</start-class>
+		<start-class>com.proquifa.net.ProquifaNetApplication</start-class>
 	</properties>
 
 	<dependencies>
@@ -34,11 +34,11 @@
 		<!-- </dependency> -->
 
 		<!-- marked the embedded servlet container as provided -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-tomcat</artifactId>
 			<scope>provided</scope>
-		</dependency>
+		</dependency> -->
 		<!-- Fin WAR -->
 
 		<dependency>
@@ -123,11 +123,11 @@
 			<version>0.1.50</version>
 		</dependency>
 
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.apache.pdfbox</groupId>
 			<artifactId>pdfbox</artifactId>
 			<version>1.7.0</version>
-		</dependency>
+		</dependency> -->
 
 		<dependency>
 			<groupId>commons-net</groupId>
@@ -196,10 +196,26 @@
 			<artifactId>spring-messaging</artifactId>
 		</dependency>
 
+		<!-- <dependency>
+			<groupId>net.sf.jasperreports</groupId>
+			<artifactId>jasperreports</artifactId>
+			<version>6.3.0</version>
+		</dependency> -->
+
 		<dependency>
 			<groupId>net.sf.jasperreports</groupId>
 			<artifactId>jasperreports</artifactId>
 			<version>6.3.0</version>
+			<exclusions>
+				<exclusion>
+					<groupId>com.lowagie</groupId>
+					<artifactId>itext</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org.olap4j</groupId>
+					<artifactId>olap4j</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
 
 		<dependency>
@@ -288,6 +304,41 @@
 			<version>1.7.7</version>
 		</dependency>
 
+
+
+		<dependency>
+			<groupId>org.apache.axis</groupId>
+			<artifactId>axis</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.axis</groupId>
+			<artifactId>axis-jaxrpc</artifactId>
+			<version>1.4</version>
+		</dependency>
+		<dependency>
+			<groupId>commons-discovery</groupId>
+			<artifactId>commons-discovery</artifactId>
+			<version>0.5</version>
+		</dependency>
+		<dependency>
+			<groupId>wsdl4j</groupId>
+			<artifactId>wsdl4j</artifactId>
+			<version>1.6.3</version>
+		</dependency>
+		<dependency>
+			<groupId>javax.xml.rpc</groupId>
+			<artifactId>javax.xml.rpc-api</artifactId>
+			<version>1.1.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.axis2</groupId>
+			<artifactId>axis2-kernel</artifactId>
+			<version>1.7.7</version>
+		</dependency>
+
+
+
 		<dependency>
 			<groupId>javax.xml.rpc</groupId>
 			<artifactId>javax.xml.rpc-api</artifactId>
@@ -325,6 +376,21 @@
 					<failOnMissingWebXml>
 						false
 					</failOnMissingWebXml>
+				</configuration>
+			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-surefire-plugin</artifactId>
+				<version>3.0.0-M5</version>
+				<configuration>
+					<useSystemClassLoader>false</useSystemClassLoader>
+					<useManifestOnlyJar>false</useManifestOnlyJar>
+					<argLine>-Xmx1024m -Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+					<forkCount>1</forkCount>
+					<reuseForks>false</reuseForks>
+					<classpathDependencyExcludes>
+						<classpathDependencyExclude>org.springframework.boot:spring-boot-starter-tomcat</classpathDependencyExclude>
+					</classpathDependencyExcludes>
 				</configuration>
 			</plugin>
 		</plugins>

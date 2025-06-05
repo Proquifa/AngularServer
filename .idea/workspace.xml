@@ -9,40 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9f2f3a8a-3cf1-44eb-9d0f-e0ed6a5bf272" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/negocio/cobrosypagos/facturista/UtilPedidoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/negocio/cobrosypagos/facturista/impl/UtilPedidoServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/ventas/impl/FacturaFisicaDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/ventas/impl/PDFConfirmacionPedido.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/ventas/impl/PDFConfirmacionPedidoRowMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuraciones.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuraciones.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/modelo/cobrosypagos/facturista/PartidaFactura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/modelo/cobrosypagos/facturista/PartidaFactura.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/modelo/comun/util/Funcion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/modelo/comun/util/Funcion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/negocio/cobrosypagos/facturista/UtilFacturaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/negocio/cobrosypagos/facturista/UtilFacturaService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/negocio/cobrosypagos/facturista/impl/FacturacionServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/negocio/comun/impl/CartaPorteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/negocio/comun/impl/CartaPorteServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/negocio/comun/impl/FacturaElectronicaServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/negocio/comun/impl/FacturaElectronicaServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/negocio/despachos/impl/EmbalarServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/negocio/despachos/impl/EmbalarServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/negocio/despachos/mensajero/impl/MensajeroServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/negocio/despachos/mensajero/impl/MensajeroServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/compras/impl/RechazosDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/compras/impl/RechazosDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/comun/facturacion/impl/FacturacionElectronicaDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/comun/facturacion/impl/FacturacionElectronicaDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/comun/impl/EmpleadoDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/comun/impl/EmpleadoDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/comun/impl/PendienteDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/comun/impl/PendienteDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/consultas/impl/ConsultaVentaDigitalDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/consultas/impl/ConsultaVentaDigitalDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/despachos/impl/EmbalarDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/despachos/impl/EmbalarDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/despachos/impl/InspeccionDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/despachos/impl/InspeccionDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/despachos/mensajero/impl/MensajeroDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/despachos/mensajero/impl/MensajeroDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/despachos/mensajero/impl/RutaDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/despachos/mensajero/impl/RutaDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/ventas/CotizacionDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/ventas/CotizacionDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/ventas/PedidoDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/ventas/PedidoDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/ventas/impl/PedidoDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/persistencia/ventas/impl/PedidoDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/resource/cobrosypagos/facturista/FacturacionResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/resource/cobrosypagos/facturista/FacturacionResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/resource/comun/PruebaResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/resource/comun/PruebaResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/resource/consultas/ConsultaVentaDigitalResorce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/resource/consultas/ConsultaVentaDigitalResorce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/resource/despachos/mensajero/MensajeroResoutce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/resource/despachos/mensajero/MensajeroResoutce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/proquifa/net/resource/inspeccion/InspeccionarResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/proquifa/net/resource/inspeccion/InspeccionarResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="9f2f3a8a-3cf1-44eb-9d0f-e0ed6a5bf272" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -81,49 +48,83 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="Use Maven wrapper" />
-        <option name="useMavenConfig" value="true" />
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectId" id="2dyPWBGiZKquDAmeuiYwlabhA8b" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Fernando Betanzos/Downloads/AngularBackEnd/src/main/webapp/WEB-INF/lib&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Problems&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.43448275&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;b94a072715e4be8ef8f284a8a9bdef14&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.ProquifaNetApplicationTests.contextLoads.executor": "Run",
+    "JUnit.ProquifaNetApplicationTests.executor": "Run",
+    "Maven.proquifanet [clean,install,-U].executor": "Run",
+    "Notification.DisplayName-DoNotAsk-Database detector": "Database detector",
+    "Notification.DoNotAsk-Database detector": "true",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.ProquifaNetApplication.executor": "Debug",
+    "WebServerToolWindowFactoryState": "false",
+    "ignore.virus.scanning.warn.message": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jmar/Desktop/Repos/AngularServer",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.43448275",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "spring.configuration.checksum": "b94a072715e4be8ef8f284a8a9bdef14",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.proquifa.net.negocio.cobrosypagos.facturista" />
       <recent name="com.proquifa.net.persistencia.ventas.impl" />
     </key>
   </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn clean install -U" />
+    </option>
+  </component>
   <component name="RunManager" selected="Spring Boot.ProquifaNetApplication">
+    <configuration name="ProquifaNetApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proquifanet" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.proquifa.net.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.proquifa.net" />
+      <option name="MAIN_CLASS_NAME" value="com.proquifa.net.ProquifaNetApplicationTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProquifaNetApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="proquifanet" />
+      <shortenClasspath name="MANIFEST" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.proquifa.net.*" />
@@ -154,6 +155,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <shortenClasspath name="MANIFEST" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ProquifaNetApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <option name="ACTIVE_PROFILES" />
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-1.8 (2)" />
@@ -173,12 +181,24 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestBase.pruebas" />
         <item itemvalue="JUnit.ProquifaNetApplicationTests.contextLoads" />
+        <item itemvalue="JUnit.ProquifaNetApplicationTests" />
+        <item itemvalue="JUnit.TestBase.pruebas" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26094.121" />
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-IU-251.26094.121" />
+      </set>
+    </attachedChunks>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="StructureViewState">
+    <option name="selectedTab" value="Logical" />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="9f2f3a8a-3cf1-44eb-9d0f-e0ed6a5bf272" name="Changes" comment="" />
@@ -293,6 +313,16 @@
       <workItem from="1746725993458" duration="13040000" />
       <workItem from="1747062386723" duration="14850000" />
       <workItem from="1747325453027" duration="3403000" />
+      <workItem from="1747690996575" duration="1468000" />
+      <workItem from="1747698371714" duration="1810000" />
+      <workItem from="1747700280586" duration="2337000" />
+      <workItem from="1747750305844" duration="331000" />
+      <workItem from="1747750653557" duration="7728000" />
+      <workItem from="1748985246479" duration="114000" />
+      <workItem from="1748985443126" duration="3376000" />
+      <workItem from="1749143793525" duration="287000" />
+      <workItem from="1749144238782" duration="4369000" />
+      <workItem from="1749150000298" duration="997000" />
     </task>
     <servers />
   </component>
@@ -1109,13 +1139,6 @@
           <option name="timeStamp" value="194" />
         </line-breakpoint>
       </breakpoints>
-      <default-breakpoints>
-        <breakpoint type="python-exception">
-          <properties notifyOnTerminate="true" exception="BaseException">
-            <option name="notifyOnTerminate" value="true" />
-          </properties>
-        </breakpoint>
-      </default-breakpoints>
     </breakpoint-manager>
     <pin-to-top-manager>
       <pinned-members>

@@ -64,7 +64,7 @@ import com.proquifa.net.persistencia.despachos.impl.mapper.PartidasParaPackingLi
 import com.proquifa.net.persistencia.despachos.impl.mapper.PiezaRowMapper;
 import com.proquifa.net.persistencia.despachos.mapper.ObtenerFolioRowMapper;
 
-import net.itsystem.ConvertNumber;
+import net.itsystema.ConvertNumber;
 
 @Repository
 public class EmbalarDAOImpl extends DataBaseDAO implements EmbalarDAO {
